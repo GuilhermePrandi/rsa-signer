@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-100 min-h-screen;
+}
+
+/* Estilos customizados para textarea de chaves */
+.key-textarea {
+  @apply font-mono text-xs leading-tight;
+}
+
+/* Animação de loading */
+.animate-spin-slow {
+  animation: spin 2s linear infinite;
+}
